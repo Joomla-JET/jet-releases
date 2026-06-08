@@ -1,2 +1,6 @@
-/.idea
+.idea/
+build/
+joomla_data/
 .env
+*.zip
+.DS_Store

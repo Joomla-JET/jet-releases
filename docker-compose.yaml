@@ -1,7 +1,12 @@
 services:
 
   joomla:
-    image: joomla
+    build:
+      context: .
+      args:
+        WWWUSER: ${WWWUSER}
+        WWWGROUP: ${WWWGROUP}
+    #image: joomla
     restart: always
     ports:
       - 8080:80
@@ -16,7 +21,8 @@ services:
       JOOMLA_ADMIN_PASSWORD: joomla@secured
       JOOMLA_ADMIN_EMAIL: joomla@example.com
     volumes:
-      - joomla_data:/var/www/html
+      - ./joomla_data:/var/www/html
+      - ./repos/mod_joomlaboot_carousel:/var/www/html/modules/mod_joomlaboot_carousel
     networks:
       - joomla_network
 
