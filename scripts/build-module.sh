@@ -9,7 +9,7 @@ if [ -z "$MODULE" ]; then
     exit 1
 fi
 
-SRC_DIR="repos/${MODULE}"
+SRC_DIR="repos/modules/${MODULE}"
 
 if [ ! -d "$SRC_DIR" ]; then
     echo "Error: module directory not found: ${SRC_DIR}"
