@@ -9,7 +9,7 @@ services:
     #image: joomla
     restart: always
     ports:
-      - 8080:80
+      - "8080:80"
     environment:
       JOOMLA_DB_HOST: db
       JOOMLA_DB_USER: joomla
@@ -31,6 +31,8 @@ services:
   db:
     image: mysql:8.0
     restart: always
+    ports:
+      - "3306:3306"
     environment:
       MYSQL_DATABASE: joomla_db
       MYSQL_USER: joomla
@@ -38,6 +40,7 @@ services:
       MYSQL_RANDOM_ROOT_PASSWORD: '1'
     volumes:
       - db_data:/var/lib/mysql
+      - ./db-init:/docker-entrypoint-initdb.d
     networks:
       - joomla_network
 
