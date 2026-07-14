@@ -6,7 +6,7 @@ services:
       args:
         WWWUSER: ${WWWUSER}
         WWWGROUP: ${WWWGROUP}
-    #image: joomla
+    #image: ${JOOMLA_IMAGE}
     restart: always
     ports:
       - "8080:80"
