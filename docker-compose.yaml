@@ -22,7 +22,7 @@ services:
       JOOMLA_ADMIN_EMAIL: joomla@example.com
     volumes:
       - ./joomla_data:/var/www/html
-      - ./repos/templates/cassiopeia_joomlaboot:/var/www/html/templates/cassiopeia_joomlaboot
+      - ./repos/templates/cassiopeia_jet:/var/www/html/templates/cassiopeia_jet
       - ./repos/modules/mod_jet_carousel:/var/www/html/modules/mod_jet_carousel
       - ./repos/modules/mod_jet_accordion:/var/www/html/modules/mod_jet_accordion
     networks:
