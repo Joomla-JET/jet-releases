@@ -23,8 +23,8 @@ services:
     volumes:
       - ./joomla_data:/var/www/html
       - ./repos/templates/cassiopeia_joomlaboot:/var/www/html/templates/cassiopeia_joomlaboot
-      - ./repos/modules/mod_joomlaboot_carousel:/var/www/html/modules/mod_joomlaboot_carousel
-      - ./repos/modules/mod_joomlaboot_faq:/var/www/html/modules/mod_joomlaboot_faq
+      - ./repos/modules/mod_jet_carousel:/var/www/html/modules/mod_jet_carousel
+      - ./repos/modules/mod_jet_accordion:/var/www/html/modules/mod_jet_accordion
     networks:
       - joomla_network
 
