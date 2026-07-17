@@ -22,9 +22,13 @@ services:
       JOOMLA_ADMIN_EMAIL: joomla@example.com
     volumes:
       - ./joomla_data:/var/www/html
-      - ./repos/templates/cassiopeia_jet:/var/www/html/templates/cassiopeia_jet
+      - ./repos/templates/tpl_jet_cassiopeia:/var/www/html/templates/jet_cassiopeia
       - ./repos/modules/mod_jet_carousel:/var/www/html/modules/mod_jet_carousel
       - ./repos/modules/mod_jet_accordion:/var/www/html/modules/mod_jet_accordion
+      - ./repos/modules/mod_jet_map:/var/www/html/modules/mod_jet_map
+      - ./repos/modules/mod_jet_map/media:/var/www/html/media/mod_jet_map
+      - ./repos/modules/mod_jet_video:/var/www/html/modules/mod_jet_video
+      - ./repos/modules/mod_jet_video/media:/var/www/html/media/mod_jet_video
     networks:
       - joomla_network
 
