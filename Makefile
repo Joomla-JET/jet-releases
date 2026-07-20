@@ -5,36 +5,22 @@ BASE_URL ?= https://example.com
 
 export BASE_URL
 
-.PHONY: all build release modules components templates build-module build-component build-template list clean
+.PHONY: all build verify publish release list clean
 
-all build release: modules components templates
+all: build
 
-modules:
-	@set -e; for extension in $(MODULES); do \
-		bash scripts/build-extension.sh modules "$$extension"; \
-	done
+build:
+	@bash scripts/build-release.sh "$(EXTENSION)"
 
-components:
-	@set -e; for extension in $(COMPONENTS); do \
-		bash scripts/build-extension.sh components "$$extension"; \
-	done
+verify:
+	@python3 scripts/verify-release.py "$(EXTENSION)"
 
-templates:
-	@set -e; for extension in $(TEMPLATES); do \
-		bash scripts/build-extension.sh templates "$$extension"; \
-	done
+publish:
+	@EXTENSION="$(EXTENSION)" DRY_RUN="$(DRY_RUN)" bash scripts/publish-release.sh
 
-build-module:
-	@test -n "$(MODULE)" || (echo "Usage: make build-module MODULE=mod_name"; exit 1)
-	@bash scripts/build-extension.sh modules "$(MODULE)"
-
-build-component:
-	@test -n "$(COMPONENT)" || (echo "Usage: make build-component COMPONENT=com_name"; exit 1)
-	@bash scripts/build-extension.sh components "$(COMPONENT)"
-
-build-template:
-	@test -n "$(TEMPLATE)" || (echo "Usage: make build-template TEMPLATE=tpl_name"; exit 1)
-	@bash scripts/build-extension.sh templates "$(TEMPLATE)"
+release:
+	@bash scripts/build-release.sh "$(EXTENSION)"
+	@EXTENSION="$(EXTENSION)" DRY_RUN="$(DRY_RUN)" bash scripts/publish-release.sh
 
 list:
 	@echo "Modules:    $(MODULES)"
