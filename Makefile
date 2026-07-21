@@ -1,11 +1,11 @@
 MODULES := $(notdir $(patsubst %/,%,$(wildcard repos/modules/*/)))
 COMPONENTS := $(notdir $(patsubst %/,%,$(wildcard repos/components/*/)))
 TEMPLATES := $(notdir $(patsubst %/,%,$(wildcard repos/templates/*/)))
-BASE_URL ?= https://example.com
+BASE_URL ?= https://joomla-jet.github.io/jet-releases
 
 export BASE_URL
 
-.PHONY: all build verify publish release list clean
+.PHONY: all build verify publish publish-dry-run release list clean
 
 all: build
 
@@ -18,9 +18,10 @@ verify:
 publish:
 	@EXTENSION="$(EXTENSION)" DRY_RUN="$(DRY_RUN)" bash scripts/publish-release.sh
 
-release:
-	@bash scripts/build-release.sh "$(EXTENSION)"
-	@EXTENSION="$(EXTENSION)" DRY_RUN="$(DRY_RUN)" bash scripts/publish-release.sh
+publish-dry-run:
+	@EXTENSION="$(EXTENSION)" DRY_RUN=1 bash scripts/publish-release.sh
+
+release: build verify publish
 
 list:
 	@echo "Modules:    $(MODULES)"

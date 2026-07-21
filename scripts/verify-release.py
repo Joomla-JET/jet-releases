@@ -23,6 +23,7 @@ class Artifact:
     package: Path
     checksum: Path
     update: Path
+    manifest_name: str
 
 
 def fail(message: str) -> None:
@@ -63,6 +64,7 @@ def discover(selected: str) -> list[Artifact]:
                 package,
                 package.with_suffix(".zip.sha256"),
                 Path("build/releases/updates") / f"{directory.name}.xml",
+                manifest.name,
             ))
     if not artifacts:
         fail(f"extension not found: {selected}" if selected else "no extensions found")
@@ -93,12 +95,29 @@ def verify(artifact: Artifact) -> None:
     expected_suffix = f"/packages/{artifact.group}/{artifact.package.name}"
     if not urlparse(download_url).scheme or not download_url.endswith(expected_suffix):
         fail(f"invalid download URL in {artifact.update}: {download_url}")
+    if urlparse(download_url).hostname == "example.com":
+        fail(f"placeholder download URL in {artifact.update}: {download_url}")
+
+    base_url = download_url.removesuffix(expected_suffix)
+    expected_update_url = f"{base_url}/updates/{artifact.extension}.xml"
 
     try:
         with zipfile.ZipFile(artifact.package) as archive:
             bad_file = archive.testzip()
             if bad_file:
                 fail(f"corrupt file {bad_file} in {artifact.package}")
+            try:
+                packaged_manifest = ET.fromstring(archive.read(artifact.manifest_name))
+            except KeyError:
+                fail(f"manifest not found in {artifact.package}: {artifact.manifest_name}")
+            except ET.ParseError as error:
+                fail(f"invalid packaged manifest in {artifact.package}: {error}")
+            server_url = (packaged_manifest.findtext("./updateservers/server") or "").strip()
+            if server_url != expected_update_url:
+                fail(
+                    f"Update Server mismatch in {artifact.package}: "
+                    f"expected {expected_update_url}, found {server_url or '<empty>'}"
+                )
     except zipfile.BadZipFile:
         fail(f"invalid ZIP: {artifact.package}")
 

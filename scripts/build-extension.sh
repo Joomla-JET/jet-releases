@@ -3,7 +3,7 @@ set -euo pipefail
 
 TYPE="${1:-}"
 EXTENSION="${2:-}"
-BASE_URL="${BASE_URL:-https://example.com}"
+BASE_URL="${BASE_URL:-https://joomla-jet.github.io/jet-releases}"
 
 if [[ -z "$TYPE" || -z "$EXTENSION" ]]; then
     echo "Usage: $0 <modules|components|templates> <extension_name>" >&2
