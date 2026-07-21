@@ -9,7 +9,7 @@ services:
     #image: ${JOOMLA_IMAGE}
     restart: always
     ports:
-      - "8080:80"
+      - "${JOOMLA_PORT:-8080}:80"
     environment:
       JOOMLA_DB_HOST: db
       JOOMLA_DB_USER: ${DB_USER}
@@ -36,7 +36,7 @@ services:
     image: mysql:8.0
     restart: always
     ports:
-      - "3306:3306"
+      - "${MYSQL_PORT:-3306}:3306"
     environment:
       MYSQL_DATABASE: ${DB_NAME}
       MYSQL_USER: ${DB_USER}
