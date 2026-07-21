@@ -24,9 +24,7 @@ publish-dry-run:
 release: build verify publish
 
 list:
-	@echo "Modules:    $(MODULES)"
-	@echo "Components: $(COMPONENTS)"
-	@echo "Templates:  $(TEMPLATES)"
+	@python3 scripts/list-extensions.py
 
 clean:
 	@rm -rf build/releases
