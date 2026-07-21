@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<updates>
+    <update>
+        <name>mod_jet_video</name>
+        <description>MOD_JET_VIDEO_XML_DESCRIPTION</description>
+        <element>mod_jet_video</element>
+        <type>module</type>
+        <version>0.1.0</version>
+        <client>0</client>
+        <downloads>
+            <downloadurl type="full" format="zip">https://joomla-jet.github.io/jet-releases/packages/modules/mod_jet_video_0.1.0.zip</downloadurl>
+        </downloads>
+        <tags>
+            <tag>stable</tag>
+        </tags>
+        <maintainer>Sarho Principato</maintainer>
+        <maintainerurl>sarhoprincipato.com</maintainerurl>
+        <targetplatform name="joomla" version="(4|5)\.[0-9]+" />
+        <php_minimum>8.1</php_minimum>
+        <sha256>d8c4af2fc98066abc2e202dc958e858cb56c4e7d9888d1321d94dfdc8d5d6080</sha256>
+    </update>
+</updates>

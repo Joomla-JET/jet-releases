@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<updates>
+    <update>
+        <name>Jet Cassiopeia</name>
+        <description>TPL_JET_CASSIOPEIA_XML_DESCRIPTION</description>
+        <element>jet_cassiopeia</element>
+        <type>template</type>
+        <version>0.1.0</version>
+        <client>0</client>
+        <downloads>
+            <downloadurl type="full" format="zip">https://joomla-jet.github.io/jet-releases/packages/templates/tpl_jet_cassiopeia_0.1.0.zip</downloadurl>
+        </downloads>
+        <tags>
+            <tag>stable</tag>
+        </tags>
+        <maintainer>Sarho Principato</maintainer>
+        <targetplatform name="joomla" version="(4|5)\.[0-9]+" />
+        <php_minimum>8.1</php_minimum>
+        <sha256>ccb342e40913be5291b61ac1e97e90a5d963e0261e1bb83ae61f4260cea0cdd0</sha256>
+    </update>
+</updates>
