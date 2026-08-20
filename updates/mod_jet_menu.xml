@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='utf-8'?>
 <updates>
     <update>
-        <name>Jet Accordion</name>
-        <description>MOD_JET_ACCORDION_XML_DESCRIPTION</description>
-        <element>mod_jet_accordion</element>
+        <name>mod_jet_menu</name>
+        <description>MOD_JET_MENU_XML_DESCRIPTION</description>
+        <element>mod_jet_menu</element>
         <type>module</type>
-        <version>0.2.0</version>
+        <version>0.1.1</version>
         <client>0</client>
         <downloads>
-            <downloadurl type="full" format="zip">https://joomla-jet.github.io/jet-releases/packages/modules/mod_jet_accordion_0.2.0.zip</downloadurl>
+            <downloadurl type="full" format="zip">https://joomla-jet.github.io/jet-releases/packages/modules/mod_jet_menu_0.1.1.zip</downloadurl>
         </downloads>
         <tags>
             <tag>stable</tag>
@@ -17,6 +17,6 @@
         <maintainerurl>sarhoprincipato.com</maintainerurl>
         <targetplatform name="joomla" version="6\.[0-9]+" />
         <php_minimum>8.3.0</php_minimum>
-        <sha256>d9c9356518ba8126d32d0edc4c88dadc8f5a38de453d2c25ee9a96ad0ca6fb6d</sha256>
+        <sha256>604ec14090f4704b21e1d3c1500cf6d4ab11532f001916cbd88f10892d2261e2</sha256>
     </update>
 </updates>
