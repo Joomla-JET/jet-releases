@@ -5,10 +5,10 @@
         <description>MOD_JET_ACCORDION_XML_DESCRIPTION</description>
         <element>mod_jet_accordion</element>
         <type>module</type>
-        <version>0.2.0</version>
+        <version>0.2.1</version>
         <client>0</client>
         <downloads>
-            <downloadurl type="full" format="zip">https://joomla-jet.github.io/jet-releases/packages/modules/mod_jet_accordion_0.2.0.zip</downloadurl>
+            <downloadurl type="full" format="zip">https://joomla-jet.github.io/jet-releases/packages/modules/mod_jet_accordion_0.2.1.zip</downloadurl>
         </downloads>
         <tags>
             <tag>stable</tag>
@@ -17,6 +17,6 @@
         <maintainerurl>sarhoprincipato.com</maintainerurl>
         <targetplatform name="joomla" version="6\.[0-9]+" />
         <php_minimum>8.3.0</php_minimum>
-        <sha256>d9c9356518ba8126d32d0edc4c88dadc8f5a38de453d2c25ee9a96ad0ca6fb6d</sha256>
+        <sha256>eb9565fcc379553a40106649d1e5ffafcb3efa99c632da7cdf2e354a8d116468</sha256>
     </update>
 </updates>
