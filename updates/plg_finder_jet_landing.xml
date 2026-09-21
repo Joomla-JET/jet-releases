@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
 <updates>
     <update>
-        <name>plg_finder_jet_landing</name>
-        <description>PLG_FINDER_JET_LANDING_XML_DESCRIPTION</description>
+        <name>Smart Search - JET Landing</name>
+        <description>Indexes JET landing pages and the content of their sections.</description>
         <element>jet_landing</element>
         <type>plugin</type>
         <version>0.2.1</version>

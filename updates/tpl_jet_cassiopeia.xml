@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
 <updates>
     <update>
-        <name>jet_cassiopeia</name>
-        <description>TPL_JET_CASSIOPEIA_XML_DESCRIPTION</description>
+        <name>JET Cassiopeia</name>
+        <description>JET Cassiopeia is based on Joomla's Cassiopeia Extended template.</description>
         <element>jet_cassiopeia</element>
         <type>template</type>
         <version>0.2.33</version>

@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
 <updates>
     <update>
-        <name>mod_jet_map</name>
-        <description>MOD_JET_MAP_XML_DESCRIPTION</description>
+        <name>JET Map</name>
+        <description>This module displays a Google map for an address or business.</description>
         <element>mod_jet_map</element>
         <type>module</type>
         <version>0.1.3</version>

@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
 <updates>
     <update>
-        <name>mod_jet_gallery</name>
-        <description>MOD_JET_GALLERY_XML_DESCRIPTION</description>
+        <name>JET Gallery</name>
+        <description>Responsive PhotoSwipe gallery with subfolder filters.</description>
         <element>mod_jet_gallery</element>
         <type>module</type>
         <version>0.1.1</version>

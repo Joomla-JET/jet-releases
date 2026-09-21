@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
 <updates>
     <update>
-        <name>mod_jet_menu</name>
-        <description>MOD_JET_MENU_XML_DESCRIPTION</description>
+        <name>JET Menu</name>
+        <description>JET menu module with advanced layout and styling options.</description>
         <element>mod_jet_menu</element>
         <type>module</type>
         <version>0.1.52</version>

@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
 <updates>
     <update>
-        <name>com_jet_landing</name>
-        <description>COM_JET_LANDING_XML_DESCRIPTION</description>
+        <name>JET Landing</name>
+        <description>Manage landing pages made of ordered sections without standalone section URLs.</description>
         <element>com_jet_landing</element>
         <type>component</type>
         <version>0.2.1</version>

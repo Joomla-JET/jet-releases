@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
 <updates>
     <update>
-        <name>mod_jet_hero</name>
-        <description>MOD_JET_HERO_XML_DESCRIPTION</description>
+        <name>JET Hero</name>
+        <description>Responsive, configurable hero with Bootstrap 5 layouts, image and calls to action.</description>
         <element>mod_jet_hero</element>
         <type>module</type>
         <version>0.2.10</version>

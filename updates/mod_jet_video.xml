@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
 <updates>
     <update>
-        <name>mod_jet_video</name>
-        <description>MOD_JET_VIDEO_XML_DESCRIPTION</description>
+        <name>JET Video</name>
+        <description>This module displays a responsive YouTube video.</description>
         <element>mod_jet_video</element>
         <type>module</type>
         <version>0.1.3</version>

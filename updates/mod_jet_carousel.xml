@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
 <updates>
     <update>
-        <name>mod_jet_carousel</name>
-        <description>MOD_JET_CAROUSEL_XML_DESCRIPTION</description>
+        <name>JET Carousel</name>
+        <description>This module displays a Bootstrap carousel slideshow</description>
         <element>mod_jet_carousel</element>
         <type>module</type>
         <version>0.2.2</version>

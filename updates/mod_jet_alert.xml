@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
 <updates>
     <update>
-        <name>mod_jet_alert</name>
-        <description>MOD_JET_ALERT_XML_DESCRIPTION</description>
+        <name>JET Alert</name>
+        <description>Displays an automatic Bootstrap modal announcement.</description>
         <element>mod_jet_alert</element>
         <type>module</type>
         <version>0.2.2</version>

@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
 <updates>
     <update>
-        <name>plg_system_jet_cookie_consent</name>
-        <description>PLG_SYSTEM_JET_COOKIE_CONSENT_XML_DESCRIPTION</description>
+        <name>System - JET Cookie Consent</name>
+        <description>Blocks optional scripts until the visitor chooses and displays a configurable consent banner.</description>
         <element>jet_cookie_consent</element>
         <type>plugin</type>
         <version>0.1.1</version>

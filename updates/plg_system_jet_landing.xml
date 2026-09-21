@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
 <updates>
     <update>
-        <name>plg_system_jet_landing</name>
-        <description>PLG_SYSTEM_JET_LANDING_XML_DESCRIPTION</description>
+        <name>System - JET Landing</name>
+        <description>Redirects standalone Joomla article URLs to the JET Landing section when the article is configured as consolidated content.</description>
         <element>jet_landing</element>
         <type>plugin</type>
         <version>0.1.1</version>
