@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<updates>
+    <update>
+        <name>plg_system_jet_landing</name>
+        <description>PLG_SYSTEM_JET_LANDING_XML_DESCRIPTION</description>
+        <element>jet_landing</element>
+        <type>plugin</type>
+        <version>0.1.0</version>
+        <folder>system</folder>
+        <downloads>
+            <downloadurl type="full" format="zip">https://joomla-jet.github.io/jet-releases/packages/plugins/plg_system_jet_landing_0.1.0.zip</downloadurl>
+        </downloads>
+        <tags>
+            <tag>stable</tag>
+        </tags>
+        <maintainer>Sarho Principato</maintainer>
+        <maintainerurl>https://sarhoprincipato.com</maintainerurl>
+        <targetplatform name="joomla" version="6\.[0-9]+" />
+        <php_minimum>8.3.0</php_minimum>
+        <sha256>3a3c9fb83ee8a03b76b7faed6dc5a23ff99e2933d24b757175eabd956760a202</sha256>
+    </update>
+</updates>

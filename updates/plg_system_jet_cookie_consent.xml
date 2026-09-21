@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<updates>
+    <update>
+        <name>plg_system_jet_cookie_consent</name>
+        <description>PLG_SYSTEM_JET_COOKIE_CONSENT_XML_DESCRIPTION</description>
+        <element>jet_cookie_consent</element>
+        <type>plugin</type>
+        <version>0.1.0</version>
+        <folder>system</folder>
+        <downloads>
+            <downloadurl type="full" format="zip">https://joomla-jet.github.io/jet-releases/packages/plugins/plg_system_jet_cookie_consent_0.1.0.zip</downloadurl>
+        </downloads>
+        <tags>
+            <tag>stable</tag>
+        </tags>
+        <maintainer>Sarho Principato</maintainer>
+        <maintainerurl>https://sarhoprincipato.com</maintainerurl>
+        <targetplatform name="joomla" version="6\.[0-9]+" />
+        <php_minimum>8.3.0</php_minimum>
+        <sha256>6556c68e146d385e69b8c7f55ac0803285974c26f6288f891b0fbde8f792ddc2</sha256>
+    </update>
+</updates>

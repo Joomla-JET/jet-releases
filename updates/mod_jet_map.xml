@@ -5,10 +5,10 @@
         <description>MOD_JET_MAP_XML_DESCRIPTION</description>
         <element>mod_jet_map</element>
         <type>module</type>
-        <version>0.1.1</version>
+        <version>0.1.2</version>
         <client>0</client>
         <downloads>
-            <downloadurl type="full" format="zip">https://joomla-jet.github.io/jet-releases/packages/modules/mod_jet_map_0.1.1.zip</downloadurl>
+            <downloadurl type="full" format="zip">https://joomla-jet.github.io/jet-releases/packages/modules/mod_jet_map_0.1.2.zip</downloadurl>
         </downloads>
         <tags>
             <tag>stable</tag>
@@ -17,6 +17,6 @@
         <maintainerurl>sarhoprincipato.com</maintainerurl>
         <targetplatform name="joomla" version="6\.[0-9]+" />
         <php_minimum>8.3.0</php_minimum>
-        <sha256>b7deccd5bc051bcf16da6fb12f6e2188105bc36ea1c6fba6b3d9bcbdd23fa57e</sha256>
+        <sha256>b396a4843a65b309faba63d75894cf6d340fa11e358f026c451d5fadda7977c3</sha256>
     </update>
 </updates>

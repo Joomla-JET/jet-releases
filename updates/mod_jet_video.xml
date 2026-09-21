@@ -5,10 +5,10 @@
         <description>MOD_JET_VIDEO_XML_DESCRIPTION</description>
         <element>mod_jet_video</element>
         <type>module</type>
-        <version>0.1.1</version>
+        <version>0.1.2</version>
         <client>0</client>
         <downloads>
-            <downloadurl type="full" format="zip">https://joomla-jet.github.io/jet-releases/packages/modules/mod_jet_video_0.1.1.zip</downloadurl>
+            <downloadurl type="full" format="zip">https://joomla-jet.github.io/jet-releases/packages/modules/mod_jet_video_0.1.2.zip</downloadurl>
         </downloads>
         <tags>
             <tag>stable</tag>
@@ -17,6 +17,6 @@
         <maintainerurl>sarhoprincipato.com</maintainerurl>
         <targetplatform name="joomla" version="6\.[0-9]+" />
         <php_minimum>8.3.0</php_minimum>
-        <sha256>d040d69f79da45e8ad644f8d8df8570e41e8c3c54cb3944e3064c0267a73c98d</sha256>
+        <sha256>518ec7c2df024301fa5df6f1c566c02cd84c73f80038db43b67ce0f252b39331</sha256>
     </update>
 </updates>
