@@ -5,10 +5,10 @@
         <description>MOD_JET_ALERT_XML_DESCRIPTION</description>
         <element>mod_jet_alert</element>
         <type>module</type>
-        <version>0.2.1</version>
+        <version>0.2.2</version>
         <client>0</client>
         <downloads>
-            <downloadurl type="full" format="zip">https://joomla-jet.github.io/jet-releases/packages/modules/mod_jet_alert_0.2.1.zip</downloadurl>
+            <downloadurl type="full" format="zip">https://joomla-jet.github.io/jet-releases/packages/modules/mod_jet_alert_0.2.2.zip</downloadurl>
         </downloads>
         <tags>
             <tag>stable</tag>
@@ -17,6 +17,6 @@
         <maintainerurl>sarhoprincipato.com</maintainerurl>
         <targetplatform name="joomla" version="6\.[0-9]+" />
         <php_minimum>8.3.0</php_minimum>
-        <sha256>8190c59229d3ae3b5d2a35cf1dc30b2edc23eef3e97daa8c6ed55f9e9d815fd9</sha256>
+        <sha256>3d67a4ae7c3df540aece19040a53e1176b33323e098a270fe9adb76585f6dde6</sha256>
     </update>
 </updates>

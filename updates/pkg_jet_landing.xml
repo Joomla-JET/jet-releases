@@ -5,9 +5,9 @@
         <description>JET Landing component with integrated navigation, Joomla article sections, SEO redirects and Smart Search integration.</description>
         <element>pkg_jet_landing</element>
         <type>package</type>
-        <version>0.2.0</version>
+        <version>0.2.1</version>
         <downloads>
-            <downloadurl type="full" format="zip">https://joomla-jet.github.io/jet-releases/packages/packages/pkg_jet_landing_0.2.0.zip</downloadurl>
+            <downloadurl type="full" format="zip">https://joomla-jet.github.io/jet-releases/packages/packages/pkg_jet_landing_0.2.1.zip</downloadurl>
         </downloads>
         <tags>
             <tag>stable</tag>
@@ -16,6 +16,6 @@
         <maintainerurl>https://sarhoprincipato.com</maintainerurl>
         <targetplatform name="joomla" version="6\.[0-9]+" />
         <php_minimum>8.3.0</php_minimum>
-        <sha256>5a781c3a9146a476070d20fb5f3bea7187426d0b6fbcf33a0625c1fd3eb156dd</sha256>
+        <sha256>6ea0ccdc907bae3b6f73c64eb7909b9ef34c90ba50a1991e4c79d872087225f3</sha256>
     </update>
 </updates>

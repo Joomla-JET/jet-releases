@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='utf-8'?>
 <updates>
     <update>
-        <name>Jet Gallery</name>
+        <name>mod_jet_gallery</name>
         <description>MOD_JET_GALLERY_XML_DESCRIPTION</description>
         <element>mod_jet_gallery</element>
         <type>module</type>
-        <version>0.1.0</version>
+        <version>0.1.1</version>
         <client>0</client>
         <downloads>
-            <downloadurl type="full" format="zip">https://joomla-jet.github.io/jet-releases/packages/modules/mod_jet_gallery_0.1.0.zip</downloadurl>
+            <downloadurl type="full" format="zip">https://joomla-jet.github.io/jet-releases/packages/modules/mod_jet_gallery_0.1.1.zip</downloadurl>
         </downloads>
         <tags>
             <tag>stable</tag>
@@ -17,6 +17,6 @@
         <maintainerurl>sarhoprincipato.com</maintainerurl>
         <targetplatform name="joomla" version="6\.[0-9]+" />
         <php_minimum>8.3.0</php_minimum>
-        <sha256>5493e2c3274d4442d67c9241aac09369edc34633cfd0dfa8f28586a5b4995a6d</sha256>
+        <sha256>e207b614371b4db65fcc48b34cfba5957bb230b7d4a8e3488c97e2ea75d7fdbf</sha256>
     </update>
 </updates>

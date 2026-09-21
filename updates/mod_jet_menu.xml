@@ -5,10 +5,10 @@
         <description>MOD_JET_MENU_XML_DESCRIPTION</description>
         <element>mod_jet_menu</element>
         <type>module</type>
-        <version>0.1.51</version>
+        <version>0.1.52</version>
         <client>0</client>
         <downloads>
-            <downloadurl type="full" format="zip">https://joomla-jet.github.io/jet-releases/packages/modules/mod_jet_menu_0.1.51.zip</downloadurl>
+            <downloadurl type="full" format="zip">https://joomla-jet.github.io/jet-releases/packages/modules/mod_jet_menu_0.1.52.zip</downloadurl>
         </downloads>
         <tags>
             <tag>stable</tag>
@@ -17,6 +17,6 @@
         <maintainerurl>sarhoprincipato.com</maintainerurl>
         <targetplatform name="joomla" version="6\.[0-9]+" />
         <php_minimum>8.3.0</php_minimum>
-        <sha256>fc28749e365db804e2136aa94f2b7e72932337db52c05556d7767c933d42f2de</sha256>
+        <sha256>14f790b48375bd00915a50123ee08fe1b4f4037d210b0644a1bc8693d055b4c9</sha256>
     </update>
 </updates>
