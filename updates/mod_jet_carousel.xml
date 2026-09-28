@@ -5,10 +5,10 @@
         <description>This module displays a Bootstrap carousel slideshow</description>
         <element>mod_jet_carousel</element>
         <type>module</type>
-        <version>0.2.2</version>
+        <version>0.2.3</version>
         <client>0</client>
         <downloads>
-            <downloadurl type="full" format="zip">https://joomla-jet.github.io/jet-releases/packages/modules/mod_jet_carousel_0.2.2.zip</downloadurl>
+            <downloadurl type="full" format="zip">https://joomla-jet.github.io/jet-releases/packages/modules/mod_jet_carousel_0.2.3.zip</downloadurl>
         </downloads>
         <tags>
             <tag>stable</tag>
@@ -17,6 +17,6 @@
         <maintainerurl>sarhoprincipato.com</maintainerurl>
         <targetplatform name="joomla" version="6\.[0-9]+" />
         <php_minimum>8.3.0</php_minimum>
-        <sha256>c4a21acbf7a5a29d776637b2c4a9f6ee21c89f4c84cf96614df07512293827c8</sha256>
+        <sha256>b2b61b3529deb6fffdc41ec551467cb26b4248b2d75e16a373fffe774ac002ad</sha256>
     </update>
 </updates>
