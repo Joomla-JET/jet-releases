@@ -5,10 +5,10 @@
         <description>Responsive, configurable hero with Bootstrap 5 layouts, image and calls to action.</description>
         <element>mod_jet_hero</element>
         <type>module</type>
-        <version>0.2.11</version>
+        <version>0.2.12</version>
         <client>0</client>
         <downloads>
-            <downloadurl type="full" format="zip">https://joomla-jet.github.io/jet-releases/packages/modules/mod_jet_hero_0.2.11.zip</downloadurl>
+            <downloadurl type="full" format="zip">https://joomla-jet.github.io/jet-releases/packages/modules/mod_jet_hero_0.2.12.zip</downloadurl>
         </downloads>
         <tags>
             <tag>stable</tag>
@@ -17,6 +17,6 @@
         <maintainerurl>sarhoprincipato.com</maintainerurl>
         <targetplatform name="joomla" version="6\.[0-9]+" />
         <php_minimum>8.3.0</php_minimum>
-        <sha256>9780451f7dabb769759b594299f8a317fb7c975b87dc9c6ed131a12b1d35cbdd</sha256>
+        <sha256>83d370eb8912108c6a32f8a80aa7b676183444d6ac648402fd534411161a1574</sha256>
     </update>
 </updates>
