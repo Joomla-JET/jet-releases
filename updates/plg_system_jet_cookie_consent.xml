@@ -6,6 +6,7 @@
         <element>jet_cookie_consent</element>
         <type>plugin</type>
         <version>0.1.4</version>
+        <client>0</client>
         <folder>system</folder>
         <downloads>
             <downloadurl type="full" format="zip">https://joomla-jet.github.io/jet-releases/packages/plugins/plg_system_jet_cookie_consent_0.1.4.zip</downloadurl>
