@@ -2,13 +2,13 @@
 <updates>
     <update>
         <name>System - JET Cookie Consent</name>
-        <description>Blocks optional scripts until the visitor chooses and displays a configurable consent banner.</description>
+        <description>Blocks classified scripts and iframes until consent and displays configurable content alternatives.</description>
         <element>jet_cookie_consent</element>
         <type>plugin</type>
-        <version>0.1.1</version>
+        <version>0.1.4</version>
         <folder>system</folder>
         <downloads>
-            <downloadurl type="full" format="zip">https://joomla-jet.github.io/jet-releases/packages/plugins/plg_system_jet_cookie_consent_0.1.1.zip</downloadurl>
+            <downloadurl type="full" format="zip">https://joomla-jet.github.io/jet-releases/packages/plugins/plg_system_jet_cookie_consent_0.1.4.zip</downloadurl>
         </downloads>
         <tags>
             <tag>stable</tag>
@@ -17,6 +17,6 @@
         <maintainerurl>https://sarhoprincipato.com</maintainerurl>
         <targetplatform name="joomla" version="6\.[0-9]+" />
         <php_minimum>8.3.0</php_minimum>
-        <sha256>8e15f4dfb6769f4d1c4ab6d816b3509d6227b650b25f62615ecac895cdb63508</sha256>
+        <sha256>bb365072555a4e08df7993b957ee865ed06c656ac816627b1de3d42591089591</sha256>
     </update>
 </updates>
