@@ -5,11 +5,11 @@
         <description>Blocks classified scripts and iframes until consent and displays configurable content alternatives.</description>
         <element>jet_cookie_consent</element>
         <type>plugin</type>
-        <version>0.1.5</version>
+        <version>0.1.6</version>
         <client>0</client>
         <folder>system</folder>
         <downloads>
-            <downloadurl type="full" format="zip">https://joomla-jet.github.io/jet-releases/packages/plugins/plg_system_jet_cookie_consent_0.1.5.zip</downloadurl>
+            <downloadurl type="full" format="zip">https://joomla-jet.github.io/jet-releases/packages/plugins/plg_system_jet_cookie_consent_0.1.6.zip</downloadurl>
         </downloads>
         <tags>
             <tag>stable</tag>
@@ -18,6 +18,6 @@
         <maintainerurl>https://sarhoprincipato.com</maintainerurl>
         <targetplatform name="joomla" version="6\.[0-9]+" />
         <php_minimum>8.3.0</php_minimum>
-        <sha256>8b044f09c05b03db9fe075f7c999167350cfccf5452711687fcffa335e86e4f7</sha256>
+        <sha256>fff6c1a894d001f2f8871f6d80fab3fdb1feb50f010efb0dfd945ff051fb7138</sha256>
     </update>
 </updates>
