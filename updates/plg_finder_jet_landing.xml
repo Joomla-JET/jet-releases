@@ -5,11 +5,11 @@
         <description>Indexes JET landing pages and the content of their sections.</description>
         <element>jet_landing</element>
         <type>plugin</type>
-        <version>0.2.2</version>
+        <version>0.2.3</version>
         <client>0</client>
         <folder>finder</folder>
         <downloads>
-            <downloadurl type="full" format="zip">https://joomla-jet.github.io/jet-releases/packages/plugins/plg_finder_jet_landing_0.2.2.zip</downloadurl>
+            <downloadurl type="full" format="zip">https://joomla-jet.github.io/jet-releases/packages/plugins/plg_finder_jet_landing_0.2.3.zip</downloadurl>
         </downloads>
         <tags>
             <tag>stable</tag>
@@ -18,6 +18,6 @@
         <maintainerurl>https://sarhoprincipato.com</maintainerurl>
         <targetplatform name="joomla" version="6\.[0-9]+" />
         <php_minimum>8.3.0</php_minimum>
-        <sha256>c22cbdf5c35e9be8f8423b9b8a96dae6436bbbdfdc2d07b327dd7ef34b7d6327</sha256>
+        <sha256>8ea9823a0bc0fde946fa44a683b56fc104494c7d5974e6884c2885b85f0c7565</sha256>
     </update>
 </updates>
