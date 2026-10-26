@@ -5,9 +5,9 @@
         <description>Manage landing pages made of ordered sections without standalone section URLs.</description>
         <element>com_jet_landing</element>
         <type>component</type>
-        <version>0.2.1</version>
+        <version>0.2.2</version>
         <downloads>
-            <downloadurl type="full" format="zip">https://joomla-jet.github.io/jet-releases/packages/components/com_jet_landing_0.2.1.zip</downloadurl>
+            <downloadurl type="full" format="zip">https://joomla-jet.github.io/jet-releases/packages/components/com_jet_landing_0.2.2.zip</downloadurl>
         </downloads>
         <tags>
             <tag>stable</tag>
@@ -16,6 +16,6 @@
         <maintainerurl>https://sarhoprincipato.com</maintainerurl>
         <targetplatform name="joomla" version="6\.[0-9]+" />
         <php_minimum>8.3.0</php_minimum>
-        <sha256>bc360698fea6618e07463d933a3f5eac891b0e2c833be65db3fcd5e5b54bdadb</sha256>
+        <sha256>0e8cdfc4227b77f8af825b8a4cc0cbbb245bb1dc971c4a637b43521561dfd8f3</sha256>
     </update>
 </updates>
