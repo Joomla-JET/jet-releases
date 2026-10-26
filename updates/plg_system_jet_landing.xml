@@ -5,10 +5,11 @@
         <description>Redirects standalone Joomla article URLs to the JET Landing section when the article is configured as consolidated content.</description>
         <element>jet_landing</element>
         <type>plugin</type>
-        <version>0.1.1</version>
+        <version>0.1.2</version>
+        <client>0</client>
         <folder>system</folder>
         <downloads>
-            <downloadurl type="full" format="zip">https://joomla-jet.github.io/jet-releases/packages/plugins/plg_system_jet_landing_0.1.1.zip</downloadurl>
+            <downloadurl type="full" format="zip">https://joomla-jet.github.io/jet-releases/packages/plugins/plg_system_jet_landing_0.1.2.zip</downloadurl>
         </downloads>
         <tags>
             <tag>stable</tag>
@@ -17,6 +18,6 @@
         <maintainerurl>https://sarhoprincipato.com</maintainerurl>
         <targetplatform name="joomla" version="6\.[0-9]+" />
         <php_minimum>8.3.0</php_minimum>
-        <sha256>c33ec8a9d89e3d860cfa98b20bf74598b54735d21f2f188a4f16ee26b4e498bb</sha256>
+        <sha256>4cc22a7f9bc576d756ef8582e0d7abc9214f1f68e1b84d0bf7b852beac075923</sha256>
     </update>
 </updates>
