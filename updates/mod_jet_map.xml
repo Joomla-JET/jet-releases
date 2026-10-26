@@ -5,10 +5,10 @@
         <description>This module displays a Google map for an address or business.</description>
         <element>mod_jet_map</element>
         <type>module</type>
-        <version>0.1.4</version>
+        <version>0.1.5</version>
         <client>0</client>
         <downloads>
-            <downloadurl type="full" format="zip">https://joomla-jet.github.io/jet-releases/packages/modules/mod_jet_map_0.1.4.zip</downloadurl>
+            <downloadurl type="full" format="zip">https://joomla-jet.github.io/jet-releases/packages/modules/mod_jet_map_0.1.5.zip</downloadurl>
         </downloads>
         <tags>
             <tag>stable</tag>
@@ -17,6 +17,6 @@
         <maintainerurl>sarhoprincipato.com</maintainerurl>
         <targetplatform name="joomla" version="6\.[0-9]+" />
         <php_minimum>8.3.0</php_minimum>
-        <sha256>ed8e2f966896c789755842937da471dcc72944ecc738c10264e71ad59ad783f7</sha256>
+        <sha256>a96f380fd865de7fbf4b60af09f98645296ec09285b733357881fecb5e47ba16</sha256>
     </update>
 </updates>
