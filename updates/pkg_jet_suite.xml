@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<updates>
+    <update>
+        <name>JET Suite</name>
+        <description>JET Suite for Joomla 6: landing pages, modules, cookie consent and the JET Cassiopeia template.</description>
+        <element>pkg_jet_suite</element>
+        <type>package</type>
+        <version>0.1.3</version>
+        <client>0</client>
+        <downloads>
+            <downloadurl type="full" format="zip">https://joomla-jet.github.io/jet-releases/packages/packages/pkg_jet_suite_0.1.3.zip</downloadurl>
+        </downloads>
+        <tags>
+            <tag>stable</tag>
+        </tags>
+        <maintainer>Sarho Principato</maintainer>
+        <maintainerurl>https://sarhoprincipato.com</maintainerurl>
+        <targetplatform name="joomla" version="6\.[0-9]+" />
+        <php_minimum>8.3.0</php_minimum>
+        <sha256>9db42db66d3cb600928fe4d9eaf9fe235318c98e42c8cdffb8d3932afe979d32</sha256>
+    </update>
+</updates>
