@@ -5,10 +5,10 @@
         <description>Responsive PhotoSwipe gallery with subfolder filters.</description>
         <element>mod_jet_gallery</element>
         <type>module</type>
-        <version>0.1.5</version>
+        <version>0.1.6</version>
         <client>0</client>
         <downloads>
-            <downloadurl type="full" format="zip">https://joomla-jet.github.io/jet-releases/packages/modules/mod_jet_gallery_0.1.5.zip</downloadurl>
+            <downloadurl type="full" format="zip">https://joomla-jet.github.io/jet-releases/packages/modules/mod_jet_gallery_0.1.6.zip</downloadurl>
         </downloads>
         <tags>
             <tag>stable</tag>
@@ -17,6 +17,6 @@
         <maintainerurl>sarhoprincipato.com</maintainerurl>
         <targetplatform name="joomla" version="6\.[0-9]+" />
         <php_minimum>8.3.0</php_minimum>
-        <sha256>0b4cf694291ae80ff0559a64a658b10f970797548763b55a6efbed943e5e2e2a</sha256>
+        <sha256>65009f1bef276679ad263c2aaf52c363888110946e7be487e4ab84916292a240</sha256>
     </update>
 </updates>
