@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<updates>
+    <update>
+        <name>JET VirtueMart Compatibility</name>
+        <description>Provides the missing utf8_strtolower function through Joomla's Unicode string API for affected VirtueMart versions. Enabled automatically on first installation. Disable this temporary compatibility plugin once VirtueMart no longer requires it.</description>
+        <element>jet_virtuemart_compat</element>
+        <type>plugin</type>
+        <version>0.1.0</version>
+        <client>0</client>
+        <folder>system</folder>
+        <downloads>
+            <downloadurl type="full" format="zip">https://joomla-jet.github.io/jet-releases/packages/plugins/plg_system_jet_virtuemart_compat_0.1.0.zip</downloadurl>
+        </downloads>
+        <tags>
+            <tag>stable</tag>
+        </tags>
+        <maintainer>Sarho Principato</maintainer>
+        <maintainerurl>https://sarhoprincipato.com</maintainerurl>
+        <targetplatform name="joomla" version="6\.[0-9]+" />
+        <php_minimum>8.3.0</php_minimum>
+        <sha256>cfdb2167339560419961dc6d05ca3565a7e17c317f2084795744492ab21c522e</sha256>
+    </update>
+</updates>
