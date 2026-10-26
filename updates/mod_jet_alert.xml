@@ -5,10 +5,10 @@
         <description>Displays an automatic Bootstrap modal announcement.</description>
         <element>mod_jet_alert</element>
         <type>module</type>
-        <version>0.2.3</version>
+        <version>0.2.4</version>
         <client>0</client>
         <downloads>
-            <downloadurl type="full" format="zip">https://joomla-jet.github.io/jet-releases/packages/modules/mod_jet_alert_0.2.3.zip</downloadurl>
+            <downloadurl type="full" format="zip">https://joomla-jet.github.io/jet-releases/packages/modules/mod_jet_alert_0.2.4.zip</downloadurl>
         </downloads>
         <tags>
             <tag>stable</tag>
@@ -17,6 +17,6 @@
         <maintainerurl>sarhoprincipato.com</maintainerurl>
         <targetplatform name="joomla" version="6\.[0-9]+" />
         <php_minimum>8.3.0</php_minimum>
-        <sha256>1ba14678259d76b2ef695768bdf22a571a91a7225f5aa1344b97d022a7e2d697</sha256>
+        <sha256>a1bf1edd24066404b4dedb553e20cbf9a36fd4a7dc03d834470d7308484477fd</sha256>
     </update>
 </updates>
