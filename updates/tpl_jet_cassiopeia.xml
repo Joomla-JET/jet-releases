@@ -5,10 +5,10 @@
         <description>JET Cassiopeia is based on Joomla's Cassiopeia Extended template.</description>
         <element>jet_cassiopeia</element>
         <type>template</type>
-        <version>0.2.44</version>
+        <version>0.2.45</version>
         <client>0</client>
         <downloads>
-            <downloadurl type="full" format="zip">https://joomla-jet.github.io/jet-releases/packages/templates/tpl_jet_cassiopeia_0.2.44.zip</downloadurl>
+            <downloadurl type="full" format="zip">https://joomla-jet.github.io/jet-releases/packages/templates/tpl_jet_cassiopeia_0.2.45.zip</downloadurl>
         </downloads>
         <tags>
             <tag>stable</tag>
@@ -17,6 +17,6 @@
         <maintainerurl>sarhoprincipato.com</maintainerurl>
         <targetplatform name="joomla" version="6\.[0-9]+" />
         <php_minimum>8.3.0</php_minimum>
-        <sha256>e7e8e74bbc0a785b35a92513721ee22f9c03f707a7bdc1794bf6fa11962a2a9d</sha256>
+        <sha256>05dde41c8ee9f882da94f81688e6d9554f48ddb1b8b447bb2df873f0cf736874</sha256>
     </update>
 </updates>
